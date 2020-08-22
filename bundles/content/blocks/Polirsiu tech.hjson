@@ -1,0 +1,22 @@
+type:GenericSmelter
+name:"Завод Поляриса"
+description:"Соиденяит Поларис и Металлик."
+outputItem:Poliris/1
+size:3
+hasPower:true
+hasItems:true
+hasLiquids:true
+craftTime:40
+updateEffect:steam
+itemCapacity:10
+consumes:{
+power:0.5
+items:{items:[
+Polaris/10
+Metallic/8
+]}}
+requirements:[
+Iron/10
+]
+category:crafting
+research:router
