@@ -1,8 +1,8 @@
 type:GenericSmelter
 name:"Завод Поляриса"
-description:"Соединяет песок с чистым углем.\nПроизводит кремний."
-outputItem:poliris/1
-size:2
+description:"Соиденяит Поларис и Металлик."
+outputItem:Poliris/1
+size:3
 hasPower:true
 hasItems:true
 hasLiquids:true
@@ -12,16 +12,11 @@ itemCapacity:10
 consumes:{
 power:0.5
 items:{items:[
-polaris/10
-metallic/8
+Polaris/10
+Metallic/8
 ]}}
-liquid:{
-liquid: frozen
-amount: 0.4
-timePeriod: 120
 requirements:[
-copper/30
-lead/25
+Iron/10
 ]
 category:crafting
 research:router
